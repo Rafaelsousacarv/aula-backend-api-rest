@@ -7,5 +7,6 @@ rotas.get("/", (req, res) => {
 });
 
 rotas.get("/instrutores", instrutores.listarInstrutores);
+rotas.get("/instrutores/:id", instrutores.listarInstrutoresPorID);
 
 module.exports = rotas;
